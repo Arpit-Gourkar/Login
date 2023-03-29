@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.row {
+  background: rgb(3, 1, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 1, 32, 1) 0%,
+    rgb(85, 14, 65) 35%,
+    rgba(201, 9, 155, 1) 100%
+  );
+
+  padding: 60px;
+
+  justify-content: center;
+  align-items: center;
+}
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#runner {
+  align-items: center;
+  width: 400px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  border: 1px solid rgb(7, 4, 47);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 450px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.login-form > h1 {
+  color: white;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 4px;
+}
+.login-form > h4 {
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.login-form > h5 {
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  margin-top: 2px;
+}
+.login-form > p {
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  margin-top: 0px;
+}
+.login-form > label {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.login-form > input {
+  height: 30px;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+}
+.login-form > input:focus {
+  outline: none;
+}
+#submit {
+  color: white;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 80px;
+  background-color: rgb(255, 115, 255);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#Username {
+  margin-top: 20px;
+}
+
+@media (max-width: 300px) {
+  .login-form {
+    width: 230px;
+  }
+}
+
+@media (max-width: 230px) {
+  .login-form {
+    width: 200px;
+  }
+}
